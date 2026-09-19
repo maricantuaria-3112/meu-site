@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mariana Cantuaria — Product Design Leader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,480;0,9..144,600;1,9..144,480&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<div class="gate" id="gate">
+  <div class="gate-card">
+    <div class="mark"><span class="logo-plate"><img src="images/logo.svg" alt="Mariana Cantuaria logo"></span></div>
+    <h2>Acesso ao portfolio</h2>
+    <p>Este conteudo e privado. Digite a senha que voce recebeu para continuar.</p>
+    <form class="gate-form" id="gate-form" autocomplete="off">
+      <input type="password" id="gate-password" placeholder="Senha" autofocus>
+      <button type="submit">Entrar</button>
+      <p class="gate-error" id="gate-error"></p>
+    </form>
+  </div>
+</div>
+
+<nav class="rail">
+  <div>
+    <div class="mark">
+      <span class="logo-plate"><img src="images/logo.svg" alt="Mariana Cantuaria logo"></span>
+      <span class="role">Mariana Cantuaria<br>Product Design Leader</span>
+    </div>
+    <div class="index">
+      <a href="#about" class="active">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="rail-foot">
+    <p style="margin:0 0 6px;">São Paulo, Brazil</p>
+    <a href="mailto:maricantuaria@gmail.com">maricantuaria@gmail.com</a>
+  </div>
+</nav>
+
+<div class="topbar">
+  <div class="mark" style="font-size:17px;"><span class="logo-plate"><img src="images/logo.svg" alt="Mariana Cantuaria logo"></span></div>
+  <div class="index">
+    <a href="#about" class="active">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<main>
+<div class="wrap">
+
+  <section id="about" class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Product Design Leader</div>
+        <h1 class="headline">I am a Product Design Leader,</h1>
+        <p class="lede">currently making financial corporate benefits experience more human at PicPay. I'm passionate about solving design problems. My team and I solve difficult business problems and create easy-to-use products focused on revenue generation and data driven design.</p>
+      </div>
+      <div class="hero-photo">
+        <img id="hero-img" src="images/portrait-of-mariana-cantuaria.jpg" alt="Portrait of Mariana Cantuaria">
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p class="section-note">Creativity is the result of disciplined hard work.</p>
+    </div>
+
+    <!-- FILE 01 — PicPay Benefits -->
+    <div class="file" data-open="false" data-accent="teal">
+      <button class="file-head" onclick="toggleFile(this)">
+        <span class="file-num">01</span>
+        <span class="file-dot" style="background:var(--teal)"></span>
+        <span class="file-titles">
+          <h3>PicPay Benefits</h3>
+          <p>Design a new product for a fintech</p>
+        </span>
+        <span class="file-toggle"><svg viewBox="0 0 12 12"><path d="M6 0 V12 M0 6 H12" stroke="currentColor" stroke-width="1.4"/></svg></span>
+      </button>
+      <div class="file-body">
+        <div class="file-body-inner">
+          <p style="max-width:62ch; color:var(--ink-soft); margin-bottom:28px;">I oversaw a team of UX and UI designers to create a new experience for the market of corporate benefits. I worked closely with the product and business teams to lead the strategic vision of the work, while providing more specific guidance and feedback to the design team.</p>
+
+          <div class="phone-duo">
+            <img src="images/picpay-benefits-shared-balance-screen.jpg" alt="PicPay Benefits shared balance screen" class="phone-shot">
+            <img src="images/picpay-benefits-app-home-screen.jpg" alt="PicPay Benefits app home screen" class="phone-shot">
+          </div>
+
+          <div class="file-cols">
+            <div>
+              <h4>The problem — Employee</h4>
+              <p>Lack of flexibility: many benefit plans are inflexible and do not allow employees to choose the perks that best meet their personal and family needs. This is especially problematic in an increasingly diverse workforce.</p>
+            </div>
+            <div>
+              <h4>The problem — Employer</h4>
+              <p>Managing benefit packages can be complex and time-consuming, particularly for HR teams. The lack of adequate tools to manage these benefits can increase the administrative burden.</p>
+            </div>
+          </div>
+
+          <div class="shot-block">
+            <img src="images/picpay-benefits-hr-portal-screens.jpg" alt="PicPay Benefits HR Portal screens" class="shot-wide">
+            <h4>HR Portal</h4>
+            <ul>
+              <li>Employee onboarding, card ordering, and benefits setup</li>
+              <li>Access to reports and analytics</li>
+              <li>Simple to use, with dedicated support</li>
+            </ul>
+          </div>
+
+          <div class="shot-block">
+            <img src="images/picpay-benefits-employee-app-screens.jpg" alt="PicPay Benefits employee app screens" class="shot-wide">
+            <h4>Employee app</h4>
+            <ul>
+              <li>Manage balances, password, and statements</li>
+              <li>Virtual card accepted by major digital wallets</li>
+              <li>Access to more than 8 benefit categories</li>
+            </ul>
+          </div>
+
+          <div class="shot-block">
+            <img src="images/picpay-benefits-black-card-design.jpg" alt="PicPay Benefits black card design" class="shot-wide">
+            <h4>Card design</h4>
+            <p>The card's black color was chosen to create a premium feel and to increase the perceived value among employees.</p>
+          </div>
+
+          <div class="shot-block">
+            <img src="images/picpay-benefits-commercial-website.jpg" alt="PicPay Benefits commercial website" class="shot-wide">
+            <h4>Comercial website</h4>
+            <p>A marketing website designed to present the product and communicate its key value propositions — product and feature presentation, conversion-focused design.</p>
+          </div>
+
+          <h4 style="font-size:13px; color:var(--ink-soft); margin-bottom:10px;">Featured in major media outlets</h4>
+          <div class="press">
+            <a href="https://mercadoeconsumo.com.br/01/05/2023/meios-de-pagamento/picpay-entra-no-mercado-de-beneficios-com-solucao-para-vales/" target="_blank" rel="noopener">Mercado&amp;Consumo — PicPay entra no mercado de benefícios com solução para 'vales'</a>
+            <a href="https://finsidersbrasil.com.br/noticias-sobre-fintechs/de-olho-em-novas-regras-do-setor-picpay-estreia-em-beneficios/" target="_blank" rel="noopener">Finsiders — De olho em novas regras do setor, PicPay estreia em benefícios</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FILE 02 — Earned Wage Access -->
+    <div class="file" data-open="false" data-accent="mist">
+      <button class="file-head" onclick="toggleFile(this)">
+        <span class="file-num">02</span>
+        <span class="file-dot" style="background:var(--mist)"></span>
+        <span class="file-titles">
+          <h3>Earned Wage Access</h3>
+          <p>Empower employees to access their wages as they need it</p>
+        </span>
+        <span class="file-toggle"><svg viewBox="0 0 12 12"><path d="M6 0 V12 M0 6 H12" stroke="currentColor" stroke-width="1.4"/></svg></span>
+      </button>
+      <div class="file-body">
+        <div class="file-body-inner">
+          <p style="max-width:62ch; color:var(--ink-soft); margin-bottom:12px;"><em>How can we create a new employee benefits category to attract, retain, and better support our workforce?</em></p>
+          <p style="max-width:62ch; color:var(--ink-soft); margin-bottom:28px;">Our vision is to create a new category of employee financial benefits by giving workers seamless, on-demand access to their earned wages — whenever they need it.</p>
+
+          <div class="ewa-hero-shot"><img src="images/earned-wage-access-three-app-screens.webp" alt="Earned Wage Access — three app screens"></div>
+
+          <div class="file-cols">
+            <div>
+              <h4>Product vision &amp; strategic value</h4>
+              <p>This product empowers employees with greater financial flexibility, reducing dependence on high-interest loans and helping them better manage unexpected expenses — with no impact on the company's cash flow, and fast, seamless implementation.</p>
+            </div>
+            <div>
+              <h4>Redesign to reduce friction</h4>
+              <p>After the product launch, we identified the need for a redesign: users experienced uncertainty and hesitation when requesting a new salary advance, which led to an increased demand for support.</p>
+            </div>
+          </div>
+
+          <div class="shot-block">
+            <img src="images/users-testing-the-redesigned-salary-adva.jpg" alt="Users testing the redesigned salary advance flow" class="shot-wide" style="max-width:420px;">
+          </div>
+
+          <h4 style="font-size:13px; color:var(--ink-soft); margin:24px 0 10px;">Problem understanding &amp; design approach</h4>
+          <p style="max-width:62ch; color:var(--ink-soft); margin-bottom:20px;">We applied the Touch Level Model to evaluate the reading time required for each screen and identify opportunities to reduce cognitive load. Based on these insights, we simplified the experience by reducing reading time per screen, while intentionally increasing the number of steps — a step-by-step flow designed so users make only one decision per screen before moving forward, improving comprehension and confidence throughout the process.</p>
+
+          <div class="shot-block">
+            <img src="images/touch-level-model-analysis-for-the-salar.jpg" alt="Touch Level Model analysis for the salary advance flow" class="shot-wide" style="max-width:480px;">
+          </div>
+
+          <div class="metric-row">
+            <div class="metric">
+              <div class="num" data-count="3000">0</div>
+              <div class="lbl">support contacts / month — before</div>
+            </div>
+            <div class="metric">
+              <div class="num" data-count="1500">0</div>
+              <div class="lbl">support contacts / month — after</div>
+            </div>
+            <div class="metric-delta" style="background:var(--teal-soft); color:var(--teal);">-50% contact rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FILE 03 — Petz Club -->
+    <div class="file" data-open="false" data-accent="ochre">
+      <button class="file-head" onclick="toggleFile(this)">
+        <span class="file-num">03</span>
+        <span class="file-dot" style="background:var(--ochre)"></span>
+        <span class="file-titles">
+          <h3>Petz Club</h3>
+          <p>The loyalty program which the more you use it, the more you earn</p>
+        </span>
+        <span class="file-toggle"><svg viewBox="0 0 12 12"><path d="M6 0 V12 M0 6 H12" stroke="currentColor" stroke-width="1.4"/></svg></span>
+      </button>
+      <div class="file-body">
+        <div class="file-body-inner">
+          <p style="max-width:62ch; color:var(--ink-soft); margin-bottom:28px;">I led a group of designers to reimagine the e-commerce experience for pet owners. The primary mission was to build a loyalty program capable of strengthening long-term relationships with customers while increasing engagement and perceived value.</p>
+
+          <div class="shot-block">
+            <img src="images/petz-club-fidelidade-app-screen.jpg" alt="Petz Club Fidelidade app screen" class="shot-wide" style="max-width:340px;">
+            <h4>Mission &amp; key challenges</h4>
+            <ul>
+              <li>Deliver contextualized, relevant offers based on each customer's profile, behavior, and moment in their journey</li>
+              <li>Create a simple, seamless onboarding experience that clearly communicates the program's value</li>
+              <li>Introduce experience levels that create a sense of progression and recognition</li>
+            </ul>
+          </div>
+
+          <div class="shot-block">
+            <img src="images/petz-club-rewards-and-offers-screens.jpg" alt="Petz Club rewards and offers screens" class="shot-wide" style="max-width:720px;">
+            <h4>Design approach</h4>
+            <ul>
+              <li>Developed the offer discovery experience</li>
+              <li>Defined challenges and rewards mechanics</li>
+              <li>Designed the experience level system</li>
+              <li>Built and tested prototypes before implementation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="section-head">
+      <h2>Nice things people have said about me</h2>
+    </div>
+    <div class="quotes">
+      <div class="quote">
+        <p class="text">"She was an exceptional leader throughout our time together. She teaches and learns together over time, and makes everyone feel comfortable and safe in their spaces. Her design insights, attention to detail, innovative ideas and care with words make Mari an inspiration to those around her."</p>
+        <div class="who">
+          <b>Gabriela Rotta</b>
+        </div>
+        <div class="note">Content Designer</div>
+      </div>
+      <div class="quote">
+        <p class="text">"I had the opportunity to work with Mari for a long time and I can truly say that she was an essential leader in my growth. An attentive, dynamic, hard-working lead who always has something to teach. She always did her best for the team. I am grateful to have had Mari on my journey."</p>
+        <div class="who">
+          <b>Sara Lobo</b>
+        </div>
+        <div class="note">UI/UX Designer</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-panel">
+      <h2>Feel free to reach out if you're looking for a consultant or designer, have a query, or simply want to connect.</h2>
+      <div style="display:flex; flex-direction:column; gap:14px; align-items:flex-start;">
+        <a class="cta" id="magnet" href="mailto:maricantuaria@gmail.com">maricantuaria@gmail.com</a>
+        <a href="https://www.linkedin.com/in/mariana-cantuaria-201555161/" target="_blank" rel="noopener" style="font-size:13px; text-decoration:underline; text-decoration-color:var(--line); color:var(--ink-soft);">You may also find me on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Mariana Cantuaria — Product Design Leader</span>
+    <span>São Paulo, Brazil</span>
+  </footer>
+
+</div>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
